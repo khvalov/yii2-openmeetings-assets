@@ -1,0 +1,32 @@
+{
+    "name": "khvalov/yii2-openmeetings-assets",
+    "description": "OpenMeeting asset bundle for Yii2",
+    "keywords": ["OpenMeeting", "assets", "Javascript"],
+    "type": "yii2-extension",
+    "homepage": "https://github.com/khvalov/yii2-openmeetings-assets",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Val Kh",
+            "homepage": "https://github.com/khvalov/yii2-openmeetings-assets"
+        }
+    ],
+    "require": {
+        "erobl/node-openmeetings":"*"
+    },
+    "repositories": [
+         {
+         "type": "package",
+         "package": {
+            "name": "erobl/node-openmeetings",
+            "version": "1.1.0",
+            "type": "package",
+            "source": {
+            "type": "git",
+            "reference": "master",
+            "url": "git@github.com:erobl/node-openmeetings.git"
+          }
+        }
+      }
+    ]
+}
