@@ -7,7 +7,7 @@ use yii\web\AssetBundle;
 /**
  * Main frontend application asset bundle.
  */
-class OMAssets extends AssetBundle
+class OMAsset extends AssetBundle
 {
 
     // public $sourcePath = '@app/components/assets/main/assets'; 

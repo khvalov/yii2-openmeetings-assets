@@ -15,9 +15,7 @@
         "erobl/node-openmeetings":"*"
     },
     "autoload": {
-        "psr-0": {
-            "OMAssets": "lib/"
-        }
+         "psr-4": {"khvalov\\OpenmeetingsAssets\\": "lib/"}
     },
     "repositories": [
          {
