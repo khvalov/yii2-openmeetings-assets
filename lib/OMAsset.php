@@ -1,6 +1,6 @@
 <?php
 
-namespace OpenmeetingsAssets\OMAssets;
+namespace khvalov\OpenmeetingsAssets;
 
 use yii\web\AssetBundle;
 
